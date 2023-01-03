@@ -13,7 +13,7 @@ public class Main {
         System.out.print("Ingrese el numero de elementos del vector >> ");
         int n = teclado.nextInt();
         int[] numeros = new int[n];
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             System.out.print("Ingrese un valor para la posición " + (i + 1) + " del vector >> ");
             numeros[i] = teclado.nextInt();
         }
